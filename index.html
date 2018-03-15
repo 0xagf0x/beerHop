@@ -1,0 +1,97 @@
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>beerHop</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <!-- Begining of the jumbotron -->
+  <div class="container">
+    <div class="jumbotron imgbg">
+            <div class="container">
+
+          <img class="mainLogo" src="https://s9.postimg.org/fbf2kuq33/new_Font.png" alt="beerHop logo">
+
+        <!--   <img class="mainLogo" src="https://s9.postimg.org/gaqml13kv/beer_Hop_final.png" alt="beerHop logo"> -->
+
+            </div>
+        </div>
+  <!-- End of the jumbotron -->
+<!-- begining of the left side of the page-->
+<div class="container">
+    <div class="row">
+      <!--Begining of the search box area  -->
+      <div class="col">
+          <form>
+            <h1>Search</h1>
+            <!-- INPUT FIELD -->
+            <div class="col-lg-6">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                   <button class="btn btn-secondary" type="button"><i class="fas fa-location-arrow"></i>
+                </span>
+              </div>
+            </div>
+
+             <!--end of the search box area  -->
+            </form>
+      </div>
+      <div class="col">
+          <form>
+            <!--Begining of the search box area  -->
+            <h1>Beer News</h1>
+            <!-- INPUT FIELD -->
+            <div class="col-lg-6">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button"><i class="fas fa-location-arrow"></i>
+                </span>
+              </div>
+            </div>
+            </form>
+      </div>
+<!--END of the search box area  -->
+
+<div class="container">
+  <div class="row">
+  <!-- Left side map link the api here -->
+    <div id="mapApi" class="col">
+      
+
+      
+    </div>
+  <!-- End Left side map link the api here -->
+  <!-- Right side map link the api here -->  
+    <div id="newsApi" class="col">
+      Put the api of the news in here
+    </div>
+    <!-- End Right side map link the api here -->  
+    </div>      
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<!-- END OF HTML -->
+
+<!-- map api -->
+<!-- Google map key AIzaSyC0W-x_mIRHA8cB1rjYp1wZOt3nUAUtEQU -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0W-x_mIRHA8cB1rjYp1wZOt3nUAUtEQU
+&callback=initMap"
+    async defer></script>
+
+<script src="beerHop.js"></script>
+	</body>
+</html>
