@@ -34,12 +34,18 @@ form{
 #mapApi{
 	height: 400px;
 	width: 400px;
+	margin: 10%;
+	align-content: center;
+ 	text-align: center;
 }
 
 #map {
-    height: 60%;
-    width: 100%;
-    margin: 10px;
+ 	width: 80%;
+ 	height: 60%;
+ 	margin: 10%;
+ 	background-color: white;
+ 	align-content: center;
+ 	text-align: center;
     border-radius: 10px;
   }
 
@@ -48,8 +54,23 @@ form{
  	width: 50%;
  	font-size: 20px;
  }
+ .input-group {
+ 	margin-left: 25%;
+ 	width: 50%;
+ 	align-content: center;
+ 	text-align: center;
+ }
 
-#footer{
-	background-color: black;
-	width: 1000px;
-}
+ .col-lg-6 {
+ 	align-content: center;
+ }
+ .newsDisplay {
+ 	width: 80%;
+ 	height: 60%;
+ 	margin: 10%;
+ 	background-color: white;
+ 	align-content: center;
+ 	text-align: center;
+ 	overflow: auto;
+ 	word-break: break-all;
+ }
