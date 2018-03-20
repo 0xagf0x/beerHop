@@ -1,5 +1,6 @@
 console.log('testmap');
 
+
 function beerFinder(){
 //Access beer API, parse repsonse, return list of locations
   $.ajax({
@@ -9,7 +10,6 @@ function beerFinder(){
       console.log(response);
 
     },
-
 });
 
 
